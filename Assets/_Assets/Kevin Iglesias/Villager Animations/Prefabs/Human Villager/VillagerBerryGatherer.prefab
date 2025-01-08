@@ -2073,7 +2073,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5908927168535840907}
   - component: {fileID: 5908927168543270673}
-  - component: {fileID: 8999172443947189145}
   m_Layer: 0
   m_Name: VillagerBerryGatherer
   m_TagString: Untagged
@@ -2097,7 +2096,6 @@ Transform:
   - {fileID: 5908927168535841139}
   - {fileID: 5908927168535841141}
   - {fileID: 5908927168535841147}
-  - {fileID: 8105530015022310239}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5908927168543270673
@@ -2110,10 +2108,10 @@ Animator:
   m_GameObject: {fileID: 5908927168535876971}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 1ae73c895084f05408cd49ec3da3cd88, type: 3}
-  m_Controller: {fileID: 9100000, guid: 830911f26289528468192c58a9ba2790, type: 2}
-  m_CullingMode: 1
+  m_Controller: {fileID: 9100000, guid: 0b5bd8d395defae4195ce256d333e2cb, type: 2}
+  m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -2121,23 +2119,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8999172443947189145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5908927168535876971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ef044fcab57eaa4493762acf664ab71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tools:
-  - {fileID: 5924012876785685727}
-  - {fileID: 8107788366556052771}
-  - {fileID: 5676392524551966241}
-  - {fileID: 6065663647456386178}
 --- !u!1 &5908927168535876977
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,72 +2372,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5908927168535840963}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1047248305
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 5908927168535840907}
-    m_Modifications:
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.052
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.386
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.185
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.61503875
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0000000013821666
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7884969
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.000000021811951
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 255.909
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8105530015661671118, guid: 557c37518372d494697df25dbed45296, type: 3}
-      propertyPath: m_Name
-      value: VillagerBasketBerries
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 557c37518372d494697df25dbed45296, type: 3}
---- !u!4 &8105530015022310239 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8105530015661186798, guid: 557c37518372d494697df25dbed45296, type: 3}
-  m_PrefabInstance: {fileID: 1047248305}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2740598272220060282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2519,11 +2434,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6236404751104244601, guid: 5d7b706f2c3d0444799b4dfe37bce441, type: 3}
   m_PrefabInstance: {fileID: 2740598272220060282}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &8107788366556052771 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6236404751104730969, guid: 5d7b706f2c3d0444799b4dfe37bce441, type: 3}
-  m_PrefabInstance: {fileID: 2740598272220060282}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4280119522824055138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2581,11 +2491,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72e2af9c085498e4c8a60b22407b389b, type: 3}
---- !u!1 &5676392524551966241 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8475936034406672195, guid: 72e2af9c085498e4c8a60b22407b389b, type: 3}
-  m_PrefabInstance: {fileID: 4280119522824055138}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5676392524552196609 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8475936034406382435, guid: 72e2af9c085498e4c8a60b22407b389b, type: 3}
@@ -2648,11 +2553,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422c6cc9382646440b6c952fd1da4bb2, type: 3}
---- !u!1 &6065663647456386178 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1871937558990206618, guid: 422c6cc9382646440b6c952fd1da4bb2, type: 3}
-  m_PrefabInstance: {fileID: 5609204445875399192}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6065663647456477346 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1871937558990367418, guid: 422c6cc9382646440b6c952fd1da4bb2, type: 3}
@@ -2722,10 +2622,5 @@ PrefabInstance:
 --- !u!4 &5924012876785322239 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2728306578926858670, guid: 58cd754c3dde1f944a2d86bd93a982bb, type: 3}
-  m_PrefabInstance: {fileID: 8640919168560593233}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5924012876785685727 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2728306578926890382, guid: 58cd754c3dde1f944a2d86bd93a982bb, type: 3}
   m_PrefabInstance: {fileID: 8640919168560593233}
   m_PrefabAsset: {fileID: 0}
