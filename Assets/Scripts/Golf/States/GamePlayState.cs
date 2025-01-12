@@ -23,11 +23,12 @@ namespace Golf
 
             GameEvents.onCollisionStone += OnGameOver;
             GameEvents.OnStickHit += OnStickHit;
+            OnStickHit();
         }
 
         private void OnStickHit()
         {
-            scoreText.text = $"score : {levelController.highscore}";
+            scoreText.text = $"Score : {levelController.score}";
         }
 
         private void OnGameOver()

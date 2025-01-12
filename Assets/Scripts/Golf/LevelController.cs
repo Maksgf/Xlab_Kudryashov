@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.Animations;
 using UnityEngine;
 using static Generic;
 
@@ -41,7 +40,7 @@ namespace Golf
         private void OnEnable()
         {
             GameEvents.onCollisionStone += GameOver;
-           score = 0;
+            score = 0;
         }
 
         private void OnDisable()
